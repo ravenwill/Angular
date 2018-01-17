@@ -12,7 +12,6 @@ export class OrdemCompraComponent implements OnInit {
   public complemento: string = ''
   public formaPagamento: string = ''
 
-
   constructor() { }
 
   ngOnInit() {
