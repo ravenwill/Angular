@@ -199,6 +199,20 @@
       "complemento": "Casa B",
       "formaPagamento": "dinheiro",
       "id": 2
+    },
+    {
+      "endereco": "Rua Helena De Abreu Silva",
+      "numero": "230",
+      "complemento": "",
+      "formaPagamento": "dinheiro",
+      "id": 3
+    },
+    {
+      "endereco": "teste",
+      "numero": "120",
+      "complemento": "",
+      "formaPagamento": "dinheiro",
+      "id": 4
     }
   ]
 }
