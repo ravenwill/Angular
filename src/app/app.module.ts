@@ -15,7 +15,9 @@ import { DiversaoComponent } from './diversao/diversao.component';
 import { OfertaComponent } from './oferta/oferta.component';
 import { ComoUsarComponent } from './oferta/como-usar/como-usar.component';
 import { OndeFicaComponent } from './oferta/onde-fica/onde-fica.component';
-import { FormsModule } from '@angular/forms'
+//import { FormsModule } from '@angular/forms'
+import { ReactiveFormsModule } from '@angular/forms'
+
 
 import { registerLocaleData } from "@angular/common";
 import localePt from "@angular/common/locales/pt";
@@ -46,7 +48,7 @@ registerLocaleData(localePt, 'pt-BR');
   imports: [
     BrowserModule,
     HttpModule,
-    FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [{ provide: LOCALE_ID, useValue: 'pt-BR' }],
