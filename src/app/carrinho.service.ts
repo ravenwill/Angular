@@ -48,7 +48,7 @@ class CarrinhoService {
         }
     }
 
-    public diminuirQuantidade(itemCarrinho: ItemCarrinho):void {
+    public diminuirQuantidade(itemCarrinho: ItemCarrinho): void {
 
         let itemCarrinhoEncontrado = this.itens.find((item: ItemCarrinho) => item.id === itemCarrinho.id)
 
@@ -59,6 +59,10 @@ class CarrinhoService {
                 let x = this.itens.splice(this.itens.indexOf(itemCarrinhoEncontrado), 1)
             }
         }
+    }
+
+    public limparCarrinho(): void {
+        this.itens = []
     }
 }
 

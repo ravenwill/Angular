@@ -187,32 +187,32 @@
   ],
   "pedidos": [
     {
-      "endereco": "teste",
-      "numero": "123",
-      "complemento": "assa",
+      "endereco": "Rua Teste da silva",
+      "complemento": null,
       "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 1,
+          "img": {
+            "url": "/assets/ofertas/1/img1.jpg"
+          },
+          "titulo": "Super Burger",
+          "descricao_oferta": "Rodízio de Mini-hambúrger com opção de entrada.",
+          "valor": 29.9,
+          "quantidade": 2
+        },
+        {
+          "id": 5,
+          "img": {
+            "url": "/assets/ofertas/5/img1.jpg"
+          },
+          "titulo": "Kart",
+          "descricao_oferta": "Bateria de Kart de 30 minutos.",
+          "valor": 54.9,
+          "quantidade": 1
+        }
+      ],
       "id": 1
-    },
-    {
-      "endereco": "Rua Helena de Abreu SIlva",
-      "numero": "230",
-      "complemento": "Casa B",
-      "formaPagamento": "dinheiro",
-      "id": 2
-    },
-    {
-      "endereco": "Rua Helena De Abreu Silva",
-      "numero": "230",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 3
-    },
-    {
-      "endereco": "teste",
-      "numero": "120",
-      "complemento": "",
-      "formaPagamento": "dinheiro",
-      "id": 4
     }
   ]
 }
